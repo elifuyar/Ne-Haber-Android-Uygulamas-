@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_icon"
+        android:layout_marginRight="10dp"
+        android:maxHeight="120dp"
+        android:maxWidth="120dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/ic_launcher"
+        android:longClickable="false" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="16dp"
+            android:text="Large Text"
+            android:id="@+id/name_textView"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textSize="15dp"
+            android:textColor="@android:color/background_dark"
+            android:id="@+id/desc_textView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textSize="13dp"
+            android:textStyle="italic"
+            android:id="@+id/date_textView" />
+
+
+    </LinearLayout>
+</LinearLayout>

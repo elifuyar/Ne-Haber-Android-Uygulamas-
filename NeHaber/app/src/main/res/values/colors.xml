@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_color">#5E4622</color>
+    <color name="topmenuback_color">#f9f4ec</color>
+    <color name="topmenutextback_color">#594d37</color>
+    <color name="solid_white">#ffffffff</color>
+    <color name="secondary_text">#ff999999</color>
+    <color name="white">#ffffff</color>
+    <color name="green_dark">#009972</color>
+    <color name="green_opak">#dbffff</color>
+    <color name="menu_text">#fefefe</color>
+    <color name="black">#4f4f4f</color>
+    <color name="purple_custom">#5D2885</color>
+    <color name="orange_custom">#FF9D15</color>
+    <color name="gray">#808080</color>
+    <color name="red_custom">#C51A1B</color>
+    <color name="menu_bg">#1A1A1A</color>
+    <color name="red">#d94338</color>
+    <color name="yellow">#cc9c0a</color>
+    <color name="blue">#3d81f5</color>
+    <color name="grey">#ebebeb</color>
+    <color name="purple">#9b27b0</color>
+    <color name="turkuaz">#00bed4</color>
+    <color name="kahve">#785448</color>
+
+
+    <array name="category_colors">
+        <item>@color/green_dark</item>
+        <item>@color/red_custom</item>
+        <item>@color/blue</item>
+        <item>@color/kahve</item>
+        <item>@color/purple</item>
+        <item>@color/menu_bg</item>
+        <item>@color/black</item>
+        <item>@color/yellow</item>
+        <item>@color/turkuaz</item>
+        <item>@color/red</item>
+        <item>@color/orange_custom</item>
+        <item>@color/gray</item>
+    </array>
+
+
+</resources>
